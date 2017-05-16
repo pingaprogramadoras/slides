@@ -1,3 +1,8 @@
+:root {
+  --color-base: #cca677;
+  --color-resaltado: #d88827;
+}
+
 .reveal.center {
   background-image: url("images/logo.png");
   background-repeat: no-repeat;
@@ -7,47 +12,47 @@
 }
 
 .reveal h1, .reveal h2, .reveal a {
-  color: #cca677;
+  color: var(--color-base);
 }
 
 .reveal a:hover {
-  color: #d88827;
+  color: var(--color-resaltado);
 }
 
 .reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
-  border-right-color: #cca677;
+  border-right-color: var(--color-base);
 }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #d88827;
+  border-right-color: var(--color-resaltado);
 }
 
 .reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
-  border-left-color: #cca677;
+  border-left-color: var(--color-base);
 }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #d88827;
+  border-left-color: var(--color-resaltado);
 }
 
 .reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
-  border-top-color: #cca677;
+  border-top-color: var(--color-base);
 }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #d88827;
+  border-top-color: var(--color-resaltado);
 }
 
 .reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #cca677;
+  border-bottom-color: var(--color-base);
 }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #d88827;
+  border-bottom-color: var(--color-resaltado);
 }
 
 .reveal .progress span {
-  background: #d88827;
+  background: var(--color-resaltado);
 }
 
 .reveal .progress {
