@@ -1,0 +1,47 @@
+body {
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hsla(0,0%,100%,0.8);
+  background-blend-mode: overlay;
+}
+
+.reveal h1, .reveal h2, .reveal a {
+  color: #cca677;
+}
+
+.reveal a:hover {
+  color: #d88827;
+}
+
+.reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
+    border-right-color: #cca677;
+}
+
+.reveal .controls .navigate-left.enabled:hover {
+    border-right-color: #d88827;
+}
+
+.reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
+    border-left-color: #cca677;
+}
+
+.reveal .controls .navigate-right.enabled:hover {
+    border-left-color: #d88827;
+}
+
+.reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
+    border-top-color: #cca677;
+}
+
+.reveal .controls .navigate-down.enabled:hover {
+    border-top-color: #d88827;
+}
+
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+    border-bottom-color: #cca677;
+}
+
+.reveal .controls .navigate-up.enabled:hover {
+    border-bottom-color: #d88827;
+}
