@@ -1,4 +1,4 @@
-body {
+.reveal.center {
   background-image: url("images/logo.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -15,33 +15,49 @@ body {
 }
 
 .reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
-    border-right-color: #cca677;
+  border-right-color: #cca677;
 }
 
 .reveal .controls .navigate-left.enabled:hover {
-    border-right-color: #d88827;
+  border-right-color: #d88827;
 }
 
 .reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
-    border-left-color: #cca677;
+  border-left-color: #cca677;
 }
 
 .reveal .controls .navigate-right.enabled:hover {
-    border-left-color: #d88827;
+  border-left-color: #d88827;
 }
 
 .reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
-    border-top-color: #cca677;
+  border-top-color: #cca677;
 }
 
 .reveal .controls .navigate-down.enabled:hover {
-    border-top-color: #d88827;
+  border-top-color: #d88827;
 }
 
 .reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
-    border-bottom-color: #cca677;
+  border-bottom-color: #cca677;
 }
 
 .reveal .controls .navigate-up.enabled:hover {
-    border-bottom-color: #d88827;
+  border-bottom-color: #d88827;
+}
+
+.reveal .progress span {
+  background: #d88827;
+}
+
+.reveal .progress {
+  height: 7px;
+}
+
+body:after {
+  content: url("images/logo.png");
+  position: fixed;
+  top: 3.5em;
+  right: 3.5em;
+  zoom: 20%;
 }
